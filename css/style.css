@@ -1,3 +1,4 @@
+/* style header */
 .header {
     overflow: hidden;
     position: fixed;
@@ -7,29 +8,35 @@
     height: 70px;
     background-color: #e3e3e3;
 }
+/* style logo */
 .logo {
     height: 100px;
 }
+/* style navbar */
 nav {
     margin-top: -90px; 
     font-size: 25px;
     float: right;
 }
+/* style elements of navbar */
 nav li {
     margin-right: 30px;
 }
+/* style anchor tags of navbar */
 nav li a {
     text-decoration: none;
     color: black;
     }
-
+/* set height of logo */
 img {
     height: 50px;
 }
+/* style navigation links */
 .list {
     display: inline-flex;
     list-style: none;
 }
+/* style hero element */
 .hero {
     margin-top:75px;
     background-image: url("../img/ibmHero.jpg");
@@ -37,25 +44,29 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.txt {
+/* style headings */
+.style-heading {
     color:#fff;
     font-size: 2em;
     /* width: 40%; */
     text-align: center;
 }
-.txtP {
+/* style paragrapgh text */
+.style-text {
     color:#fff;
     font-size: 1.5em;
     text-align: center;
   }
-.txtFooter {
+/* style footer text */
+.style-footer-text {
     font-size: 15px;
     }
+/* style footer container */
 .flex-container{
     display: flex;
      background-color: #e3e3e3;
   }
-  
+/* style every div of column flex container    */
   .flex-container > div {
     background-color:#fff;
     margin: 10px;
@@ -65,16 +76,19 @@ img {
     width: 33%;
     height: 150px;
   }
-  .whatWeDoImg {
+/* style left column image */
+  .side-image {
       background-image: url("../img/LeftSideImage.jpg");
       width:33%;
       height: 350px;
   }
-    .container {
+/* style flex container */
+  .container {
     background-color: #e3e3e3;
     display: flex;
     width: 100%;
   }
+/* style flex container left side */
   .container aside {
       margin-left: 10px;
     align-content: center;
@@ -82,7 +96,7 @@ img {
     float: left;
     background-color: #e3e3e3;
   }
-
+/* style flex container right column's rows */
   .flex-container-row {
     align-content: center;
     width:67%;
@@ -90,36 +104,43 @@ img {
     display: flex;
     flex-direction: column;
     background-color: #e3e3e3;
-  
   }
- .flex-container-row > div{
+/* style flex container right column's row's div */
+  .flex-container-row > div{
     background-color: #fff;
      margin: 10px; 
     padding: 20px;
     font-size: 20px;
     height: 60px;
   }
+  /* style flex container right column's row's div's paragraph */
   .flex-container-row div p {
     font-size: 15px;
     }
+    /* style footer background color and height */
   .footer {
      background-color: grey;
       height: 50px;
        }
-   .txtFooter {
+  /* style footer text */
+  .style-footer-text {
        color: #e3e3e3;
    }
-  .footer_half {
+  /* style footer first half */
+   .footer-first-half {
       width:50%;
   }
-  .footer_half2 {
+  /* style footer second half */
+  .footer-second-half {
     margin-top: -5%;
     float: right;
    }
+   /* for social media icons */
    .footer aside {
        line-height: 1.5rem;
        padding-left: 50px;
    }
+   /* style social media icons */
   .fa {
     font-size: 20px;
     width: 50px;
